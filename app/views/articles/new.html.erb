@@ -1,10 +1,5 @@
 <h1>Create a new article</h1>
 
-<%= pp @article.errors %>
-<%= pp @article.errors.any? %>
-<%= pp @article.errors.to_a %>
-<%= pp @article.errors.full_messages %>
-
 <% if @article.errors.any? %>
   <h2>The following errors prevented the article from being saved:</h2>
   <ul>
